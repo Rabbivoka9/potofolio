@@ -4,11 +4,6 @@
   --secondaryFont: "Poppins", sans-serif;
   --maincolor: #3a3434;
 }
-/* @media screen and (max-width: 310px) {
-  .ov {
-    overflow-x: hidden;
-  }
-} */
 .f-head {
   font-family: var(--headingFonts);
 }
@@ -61,6 +56,13 @@
   margin-bottom: 80px;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 310px) {
+  .Titles {
+    font-size: 10px;
+    display:none;
+  }
 }
 
 .Titles::after {
@@ -173,6 +175,12 @@ h1::after {
 #about .parent {
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
   background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 310px) {
+  #about a {
+    display: none;
+  }
 }
 
 /* End About Section */
@@ -463,7 +471,7 @@ h1::after {
   border: none;
 }
 #Portfolio .modal.fade .modal-dialog {
-  transform: 0.1s;
+  transition:0s;
 }
 #Portfolio .modal,
 #Portfolio .carousel-control-prev,
@@ -495,24 +503,24 @@ h1::after {
   margin-right: -5px;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 70%;
+    width: 70%;
     margin: 1.75rem auto;
   }
 }
 @media (min-width: 992px) {
   .modal-dialog {
-    max-width: 50%;
+    width: 50%;
     margin: 1.75rem auto;
   }
 }
 @media (max-width: 575px) {
   .modal-dialog {
-    max-width: 500px;
+    width: auto;
     margin: 1.75rem auto;
   }
-}
+} */
 .countSlide {
   bottom: -25px;
   right: 0;
@@ -829,3 +837,42 @@ nav .nav-icon {
 /* End Nav Collabs */
 
 /* End Nav */
+
+.owl-carousel {
+  cursor: grab;
+}
+
+#Portfolio .owl-theme .owl-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#Portfolio .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+}
+#Portfolio .owl-carousel .owl-nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Portfolio .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  right: 110%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  font-size: 35px;
+}

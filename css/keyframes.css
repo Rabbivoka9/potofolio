@@ -202,6 +202,100 @@ h1 {
   }
 }
 
+@media screen and (min-width: 311px) and (max-width: 767px) {
+
+  #heroSection .hero-content {
+    max-width:fit-content;
+    display: none;
+  }
+  .hero-content.two {
+    display: block !important;
+    max-width: auto;
+    position: absolute;
+    font-family: var(--headingFonts);
+  }
+  .animationTwo::after {
+    font-size: 35px;
+    max-width: fit-content;
+    }
+  .fs-35 {
+    font-size: 35px;
+  }
+  .fs-28px {
+    font-size: 28px;
+    max-width: fit-content;
+  }
+  
+}
+
+@media screen and (max-width: 310px) {
+  #heroSection .hero-content {
+    max-width:fit-content;
+    display: none;
+  }
+  .animationTwo::after  {
+    font-size: 10px !important;
+  }
+  .animationTwo::before {
+    display: none;
+  }
+  section div div h2 {
+
+    font-size: 10px !important;
+  }
+
+  .hero-content.two {
+    display: block !important;
+    max-width: auto;
+    position: absolute;
+    font-family: var(--headingFonts);
+  }
+  .heroSocial {
+    flex-wrap: wrap;
+  }
+  p,h3 {
+    font-size: 5px;
+  }
+  #about {
+    display: none;
+  }
+  #services h3 , i {
+    font-size: 5px !important;
+    
+  }
+  .ervIcons {
+    width: 10px;
+    height: 10px;
+  }
+  #Portfolio button {
+    display: none;
+  }
+  #Works .carousel  {
+    width: 20px;
+  }
+  #Works p {
+    font-size: 3px;
+  }
+  #contact h4 {
+    font-size: 10px;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    display: none;
+  }
+  #contact input {
+    display: none;
+  }
+  Footer span {
+    font-size: 5px;
+  }
+  #team p {
+    display: none;
+  }
+  .clints {
+    display: none;
+  }
+}
+
 .animationTwo::before {
   content: "";
   width: 2px;
@@ -402,28 +496,7 @@ h1 {
 }
 
 
-@media screen and (max-width: 767px) {
 
-  #heroSection .hero-content {
-    max-width:fit-content;
-    display: none;
-  }
-  .hero-content.two {
-    display: block !important;
-    max-width: auto;
-    position: absolute;
-    font-family: var(--headingFonts);
-  }
-  .animationTwo::after {
-    font-size: 35px;
-    }
-  .fs-35 {
-    font-size: 35px;
-  }
-  .fs-28px {
-    font-size: 28px;
-  }
-}
 
 /* Start Body key frames */
 @keyframes layer2 {

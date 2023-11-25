@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(" #worked .owl-carousel").owlCarousel({
+  $(" #WorksSlider .owl-carousel").owlCarousel({
     items: 1,
     dots: true,
     nav: false,
@@ -12,10 +12,10 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $(" #innerBlog .owl-carousel").owlCarousel({
+  $(" #port .owl-carousel").owlCarousel({
     items: 1,
     dots: false,
-    nav: false,
+    nav: true,
     loop:true
     // autoplayTimeout:4000
   });

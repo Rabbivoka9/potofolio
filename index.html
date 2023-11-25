@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Start Main Style -->
   <link rel="stylesheet" href="./css/mainStyle.css">
+  <!-- Start Owlcarousel  -->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <!-- Start Keyframes auther MuhamedHajajii  -->
   <link rel="stylesheet" href="./css/keyframes.css">
   <link rel="stylesheet" href="./css/counter.css">
@@ -322,57 +325,45 @@
                   </button>
                   <!-- Start Carousel  -->
                   <div id="carouselExample" class="carousel slide w-100">
-                    <div class="carousel-inner overflow-visible">
-                      <div class="carousel-item active position-relative">
-                        <div class="img-flow">
-                          <img src="./image/portfolio/1.jpg" class="d-block w-100" alt="portfolio">
+                    <div class="carousel-inner owl-carousel owl-theme overflow-visible w-100">
+                        <div class="carousel-item  active position-relative item">
+                            <img src="./image/portfolio/1.jpg" class="d-block w-100" alt="portfolio">
+                          <div class="countSlide">1 of 6</div>
                         </div>
-                        <div class="countSlide position-absolute ">1 of 6</div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-flow">
-                          <img src="./image/portfolio/2.jpg" class="d-block w-100" alt="portfolio">
+                        <div class="carousel-item item active">
+                            <img src="./image/portfolio/2.jpg" class="d-block w-100" alt="portfolio">
+                          <div class="countSlide">2 of 6</div>
                         </div>
-                        <div class="countSlide position-absolute ">2 of 6</div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-flow">
-                          <img src="./image/portfolio/3.jpg" class="d-block w-100" alt="portfolio">
+                        <div class="carousel-item item active">
+                            <img src="./image/portfolio/3.jpg" class="d-block w-100" alt="portfolio">
+                          <div class="countSlide">3 of 6</div>
                         </div>
-                        <div class="countSlide position-absolute ">3 of 6</div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-flow">
-                          <img src="./image/portfolio/4.jpg" class="d-block w-100" alt="portfolio">
+                        <div class="carousel-item item active">
+                            <img src="./image/portfolio/4.jpg" class="d-block w-100" alt="portfolio">
+                          <div class="countSlide">4 of 6</div>
                         </div>
-                        <div class="countSlide position-absolute ">4 of 6</div>
-                      </div>
-                      <div class="carousel-item">
-                        <div>
-                          <img src="./image/portfolio/5.jpg" class="d-block w-100" alt="portfolio">
-                        </div class="img-flow">
-                        <div class="countSlide position-absolute ">5 of 6</div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="img-flow">
-                          <img src="./image/portfolio/6.jpg" class="d-block w-100" alt="portfolio">
+                        <div class="carousel-item item active">
+                            <img src="./image/portfolio/5.jpg" class="d-block w-100" alt="portfolio">
+                          <div class="countSlide">5 of 6</div>
                         </div>
-                        <div class="countSlide position-absolute ">6 of 6</div>
-                      </div>
+                        <div class="carousel-item item active">
+                            <img src="./image/portfolio/6.jpg" class="d-block w-100" alt="portfolio">
+                          <div class="countSlide">6 of 6</div>
+                        </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    <!-- <button class="carousel-control-prev owl-prev" data-bs-slide="prev" type="button" role="presentation"
                       data-bs-slide="prev">
                       <span class="carousel-control-prev-icon  position-relative" aria-hidden="false"></span>
                       <i class="fa-solid fa-angles-left position-absolute"></i>
-                      <span class="visually-hidden">Previous</span>
+                      <span aria-label class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    <button class="carousel-control-next owl-next" role="presentation" type="button" data-bs-target="#carouselExample"
                       data-bs-slide="next">
                       <span class="carousel-control-next-icon position-relative" aria-hidden="false">
                       </span>
                       <i class="fa-solid fa-angles-right position-absolute"></i>
                       <span class="visually-hidden">Next</span>
-                    </button>
+                    </button> -->
                   </div>
                   <!-- End Carousel  -->
                 </div>
@@ -502,8 +493,8 @@
         Testimonials.
       </h2>
       <div id="WorksSlider" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div class="owl-carousel owl-theme carousel-inner">
+          <div class=" active">
             <div class="img-works">
               <img src="./image/1_New1.jpg" class="" alt="1_New1">
             </div>
@@ -515,7 +506,7 @@
             <h6 class="f-head fw-semibold">Alex Smith</h6>
             <p class="font-parag text-muted f-12">Envato Customer</p>
           </div>
-          <div class="carousel-item">
+          <div class=" active">
             <div class="img-works">
               <img src="./image/1_New1.jpg" class="" alt="1_New1">
             </div>
@@ -527,7 +518,7 @@
             <h6 class="f-head fw-semibold">Alex Smith</h6>
             <p class="font-parag text-muted f-12">Envato Customer</p>
           </div>
-          <div class="carousel-item">
+          <div class=" active">
             <div class="img-works">
               <img src="./image/1_New1.jpg" class="" alt="1_New1">
             </div>
@@ -538,18 +529,6 @@
             </p>
             <h6 class="f-head fw-semibold">Alex Smith</h6>
             <p class="font-parag text-muted f-12">Envato Customer</p>
-          </div>
-        </div>
-        <div class="carousel-indicators">
-          <div class="btn-slider">
-            <button type="button" data-bs-target="#WorksSlider" data-bs-slide-to="0" class="active" aria-current="true"
-              aria-label="Slide 1"></button>
-          </div>
-          <div class="btn-slider">
-            <button type="button" data-bs-target="#WorksSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          </div>
-          <div class="btn-slider">
-            <button type="button" data-bs-target="#WorksSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
         </div>
       </div>
@@ -709,10 +688,10 @@
         <form>
           <div class="row">
             <div class="col-12 col-lg-6  mb-3">
-              <input type="text" class="fs-13 rounded-1 font-parag text-muted border-0 form-control" placeholder="Name" aria-label="First name">
+              <input type="text" required class="fs-13 rounded-1 font-parag text-muted border-0 form-control" placeholder="Name" aria-label="First name">
             </div>
             <div class="col-12 col-lg-6 mb-3">
-              <input type="email" class="fs-13 rounded-1 font-parag text-muted border-0 form-control" placeholder="Email" aria-label="Email">
+              <input type="email" required class="fs-13 rounded-1 font-parag text-muted border-0 form-control" placeholder="Email" aria-label="Email">
             </div>
             <div class="mb-3 ">
               <textarea placeholder="Message" class="fs-13 rounded-1 font-parag text-muted border-0t form-control"  id="text" rows="6"></textarea>
@@ -731,8 +710,14 @@
   <span>By Daniels All Rights Reserved</span>
 </footer>
 
+  <!-- Start JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Start Bootstrap js  -->
   <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Start Owl js -->
+  <script src="./js/owl.carousel.min.js"></script>
+<!-- Start Main js  -->
+<script src="./js/Mainjs.js"></script>
 </body>
 
 </html>
