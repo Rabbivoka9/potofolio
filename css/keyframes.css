@@ -1,0 +1,912 @@
+:root {
+  --bigWidth: 610px;
+  --smallWidth: 420px;
+  --DurationEnimation: 6s;
+}
+
+h1 {
+  width: var(--bigWidth);
+  height: 70px;
+  animation: changeWidth infinite;
+  transition-timing-function: linear;
+  animation-duration: var(--DurationEnimation);
+}
+.endpercent {
+  width: var(--bigWidth);
+  display: inline-block;
+  text-align: left;
+  padding-left: 5px !important;
+}
+
+#heroSection h1 div {
+  animation-name: header;
+  animation-duration: var(--DurationEnimation);
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  width:auto;
+  z-index: 5000;
+}
+
+#heroSection h1 div span:first-child {
+  width: var(--bigWidth);
+  display: inline-block;
+  text-align: left;
+  padding-left: 65px;
+}
+
+@keyframes header {
+  11.1111111111111% {
+    transform: translateX(0);
+  }
+  22.2222222222222% {
+    transform: translateX(200px);
+  }
+  33.3333333333333% {
+    transform: translateX(0);
+  }
+  44.4444444444444% {
+    transform: translateX(0);
+  }
+  55.5555555555556% {
+    transform: translateX(200px);
+  }
+  66.6666666666667% {
+    transform: translateX(0);
+  }
+  77.7777777777778% {
+    transform: translateX(0);
+  }
+  88.8888888888889% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes changeWidth {
+  11.1111111111111% {
+    width: var(--bigWidth);
+  }
+  22.2222222222222% {
+    width: var(--smallWidth);
+  }
+  33.3333333333333% {
+    width: 520px;
+  }
+  44.4444444444444% {
+    width: 520px;
+  }
+  55.5555555555556% {
+    width: var(--smallWidth);
+  }
+  66.6666666666667% {
+    width: 500px;
+  }
+  77.7777777777778% {
+    width: 500px;
+  }
+  88.8888888888889% {
+    width: var(--smallWidth);
+  }
+  100% {
+    width: var(--bigWidth);
+  }
+}
+
+.Larry-Daniels {
+  visibility: visible;
+  animation: Larry-Daniels var(--DurationEnimation) infinite;
+  transition-timing-function: linear;
+}
+
+@keyframes Larry-Daniels {
+  11.1111111111111% {
+    visibility: visible;
+  }
+  22.2222222222222% {
+    visibility: hidden;
+  }
+  33.3333333333333% {
+    visibility: hidden;
+  }
+  44.4444444444444% {
+    visibility: hidden;
+  }
+  55.5555555555556% {
+    visibility: hidden;
+  }
+  66.6666666666667% {
+    visibility: hidden;
+  }
+  77.7777777777778% {
+    visibility: hidden;
+  }
+  88.8888888888889% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.Developer {
+  visibility: hidden;
+  animation: Developer var(--DurationEnimation) infinite;
+  transition-timing-function: linear;
+}
+
+@keyframes Developer {
+  11.1111111111111% {
+    visibility: hidden;
+  }
+  22.2222222222222% {
+    visibility: hidden;
+  }
+  33.3333333333333% {
+    visibility: visible;
+  }
+  44.4444444444444% {
+    visibility: visible;
+  }
+  55.5555555555556% {
+    visibility: hidden;
+  }
+  66.6666666666667% {
+    visibility: hidden;
+  }
+  77.7777777777778% {
+    visibility: hidden;
+  }
+  88.8888888888889% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+.Designer {
+  visibility: hidden;
+  animation: Designer var(--DurationEnimation) infinite;
+  transition-timing-function: linear;
+}
+
+@keyframes Designer {
+  11.1111111111111% {
+    visibility: hidden;
+  }
+  22.2222222222222% {
+    visibility: hidden;
+  }
+  33.3333333333333% {
+    visibility: hidden;
+  }
+  44.4444444444444% {
+    visibility: hidden;
+  }
+  55.5555555555556% {
+    visibility: hidden;
+  }
+  66.6666666666667% {
+    visibility: visible;
+  }
+  77.7777777777778% {
+    visibility: visible;
+  }
+  88.8888888888889% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+.animationTwo::before {
+  content: "";
+  width: 2px;
+  height: 70px;
+  right: -10px;
+  bottom: 0;
+  background-color: #aebcb9;
+  position: absolute;
+}
+
+.animationTwo::after {
+  content: " Larry Daniels ";
+  font-size: 48px;
+  color: white;
+  font-weight: 400;
+  animation-name:animationTwo ;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animationTwo {
+
+  0.571428571428571%{content:"Larry Daniels ";}
+  1.14285714285714%{content:"Larry Daniels ";}
+  1.71428571428571%{content:"Larry Daniels ";}
+  2.28571428571429%{content:"Larry Daniels ";}
+  2.85714285714286%{content:"Larry Daniels ";}
+  3.42857142857143%{content:"Larry Daniels ";}
+  4%{content:"Larry Daniels ";}
+  4.57142857142857%{content:"Larry Daniels ";}
+  5.14285714285714%{content:"Larry Daniels ";}
+  5.71428571428571%{content:"Larry Daniels ";}
+  6.28571428571428%{content:"Larry Daniels ";}
+  6.85714285714285%{content:"Larry Daniels ";}
+  7.42857142857143%{content:"Larry Daniels ";}
+  8%{content:"Larry Daniels ";}
+  8.57142857142857%{content:"Larry Daniels ";}
+  9.14285714285714%{content:"Larry Daniels ";}
+  9.71428571428571%{content:"Larry Daniel";}
+  10.2857142857143%{content:"Larry Danie";}
+  10.8571428571429%{content:"Larry Dani";}
+  11.4285714285714%{content:"Larry Dan";}
+  12%{content:"Larry Da";}
+  12.5714285714286%{content:"Larry D";}
+  13.1428571428571%{content:"Larry ";}
+  13.7142857142857%{content:"Larry";}
+  14.2857142857143%{content:"Larr";}
+  14.8571428571429%{content:"Lar";}
+  15.4285714285714%{content:"La";}
+  16%{content:"L";}
+  16.5714285714286%{content:"";}
+  17.1428571428571%{content:"D";}
+  17.7142857142857%{content:" De";}
+  18.2857142857143%{content:" Dev";}
+  18.8571428571429%{content:" Deve";}
+  19.4285714285714%{content:" Devel";}
+  20%{content:" Develo";}
+  20.5714285714286%{content:"Develop";}
+  21.1428571428571%{content:" Develope";}
+  21.7142857142857%{content:" Developer ";}
+  22.2857142857143%{content:" Developer ";}
+  22.8571428571429%{content:" Developer ";}
+  23.4285714285714%{content:" Developer ";}
+  24%{content:" Developer ";}
+  24.5714285714286%{content:" Developer ";}
+  25.1428571428572%{content:" Developer ";}
+  25.7142857142857%{content:" Developer ";}
+  26.2857142857143%{content:" Developer ";}
+  26.8571428571429%{content:" Developer ";}
+  27.4285714285715%{content:" Developer ";}
+  28%{content:" Developer ";}
+  28.5714285714286%{content:" Developer ";}
+  29.1428571428572%{content:" Developer ";}
+  29.7142857142857%{content:" Developer ";}
+  30.2857142857143%{content:" Developer ";}
+  30.8571428571429%{content:" Developer ";}
+  31.4285714285715%{content:" Developer ";}
+  32%{content:" Developer ";}
+  32.5714285714286%{content:" Developer ";}
+  33.1428571428572%{content:" Developer ";}
+  33.7142857142857%{content:" Developer ";}
+  34.2857142857143%{content:" Developer ";}
+  34.8571428571429%{content:" Developer ";}
+  35.4285714285715%{content:" Developer ";}
+  36%{content:" Developer ";}
+  36.5714285714286%{content:" Developer ";}
+  37.1428571428572%{content:" Developer ";}
+  37.7142857142857%{content:" Developer ";}
+  38.2857142857143%{content:" Developer ";}
+  38.8571428571429%{content:" Developer ";}
+  39.4285714285714%{content:" Developer ";}
+  40%{content:" Developer ";}
+  40.5714285714286%{content:" Developer ";}
+  41.1428571428571%{content:" Developer ";}
+  41.7142857142857%{content:" Developer ";}
+  42.2857142857143%{content:" Developer ";}
+  42.8571428571429%{content:" Developer ";}
+  43.4285714285714%{content:" Developer ";}
+  44%{content:" Developer ";}
+  44.5714285714286%{content:" Develope";}
+  45.1428571428571%{content:" Develop";}
+  45.7142857142857%{content:" Develo";}
+  46.2857142857143%{content:" Devel";}
+  46.8571428571428%{content:" Deve";}
+  47.4285714285714%{content:" Dev";}
+  48%{content:" De";}
+  48.5714285714285%{content:" D";}
+  49.1428571428571%{content:"D";}
+  49.7142857142857%{content:"De";}
+  50.2857142857143%{content:"Des";}
+  50.8571428571428%{content:"Desi";}
+  51.4285714285714%{content:"Desig";}
+  52%{content:"Design";}
+  52.5714285714285%{content:"Designe";}
+  53.1428571428571%{content:"Designer  ";}
+  53.7142857142857%{content:"Designer  ";}
+  54.2857142857142%{content:"Designer  ";}
+  54.8571428571428%{content:"Designer  ";}
+  55.4285714285714%{content:"Designer  ";}
+  56%{content:"Designer  ";}
+  56.5714285714285%{content:"Designer  ";}
+  57.1428571428571%{content:"Designer  ";}
+  57.7142857142857%{content:"Designer  ";}
+  58.2857142857142%{content:"Designer  ";}
+  58.8571428571428%{content:"Designer  ";}
+  59.4285714285714%{content:"Designer  ";}
+  59.9999999999999%{content:"Designer  ";}
+  60.5714285714285%{content:"Designer  ";}
+  61.1428571428571%{content:"Designer  ";}
+  61.7142857142856%{content:"Designer  ";}
+  62.2857142857142%{content:"Designer  ";}
+  62.8571428571428%{content:"Designer  ";}
+  63.4285714285714%{content:"Designer  ";}
+  63.9999999999999%{content:"Designer  ";}
+  64.5714285714285%{content:"Designer  ";}
+  65.1428571428571%{content:"Designer  ";}
+  65.7142857142856%{content:"Designer  ";}
+  66.2857142857142%{content:"Designer  ";}
+  66.8571428571428%{content:"Designer  ";}
+  67.4285714285713%{content:"Designer  ";}
+  67.9999999999999%{content:"Designer  ";}
+  68.5714285714285%{content:"Designer  ";}
+  69.1428571428571%{content:"Designer  ";}
+  69.7142857142856%{content:"Designer  ";}
+  70.2857142857142%{content:"Designer  ";}
+  70.8571428571428%{content:"Designer  ";}
+  71.4285714285713%{content:"Designer  ";}
+  71.9999999999999%{content:"Designer  ";}
+  72.5714285714285%{content:"Designer  ";}
+  73.142857142857%{content:"Designer  ";}
+  73.7142857142856%{content:"Designer  ";}
+  74.2857142857142%{content:"Designer  ";}
+  74.8571428571427%{content:"Designer  ";}
+  75.4285714285713%{content:"Designer  ";}
+  75.9999999999999%{content:"Designe";}
+  76.5714285714285%{content:"Design";}
+  77.142857142857%{content:"Desig";}
+  77.7142857142856%{content:"Desi";}
+  78.2857142857142%{content:"Des";}
+  78.8571428571427%{content:"De";}
+  79.4285714285713%{content:"D";}
+  79.9999999999999%{content:"L";}
+  80.5714285714284%{content:"La";}
+  81.142857142857%{content:"Lar";}
+  81.7142857142856%{content:"Larr";}
+  82.2857142857141%{content:"Larry";}
+  82.8571428571427%{content:"Larry ";}
+  83.4285714285713%{content:"Larry D";}
+  83.9999999999999%{content:"Larry Da";}
+  84.5714285714284%{content:"Larry Dan";}
+  85.142857142857%{content:"Larry Dani";}
+  85.7142857142856%{content:"Larry Danie";}
+  86.2857142857141%{content:"Larry Daniel";}
+  86.8571428571427%{content:"Larry Daniels ";}
+  87.4285714285713%{content:"Larry Daniels ";}
+  87.9999999999998%{content:"Larry Daniels ";}
+  88.5714285714284%{content:"Larry Daniels ";}
+  89.142857142857%{content:"Larry Daniels ";}
+  89.7142857142856%{content:"Larry Daniels ";}
+  90.2857142857141%{content:"Larry Daniels ";}
+  90.8571428571427%{content:"Larry Daniels ";}
+  91.4285714285713%{content:"Larry Daniels ";}
+  91.9999999999998%{content:"Larry Daniels ";}
+  92.5714285714284%{content:"Larry Daniels ";}
+  93.142857142857%{content:"Larry Daniels ";}
+  93.7142857142855%{content:"Larry Daniels ";}
+  94.2857142857141%{content:"Larry Daniels ";}
+  94.8571428571427%{content:"Larry Daniels ";}
+  95.4285714285712%{content:"Larry Daniels ";}
+  95.9999999999998%{content:"Larry Daniels ";}
+  96.5714285714284%{content:"Larry Daniels ";}
+  97.142857142857%{content:"Larry Daniels ";}
+  97.7142857142855%{content:"Larry Daniels ";}
+  98.2857142857141%{content:"Larry Daniels ";}
+  98.8571428571427%{content:"Larry Daniels ";}
+  99.4285714285712%{content:"Larry Daniels ";}
+  99.9999999999998%{content:"Larry Daniels ";}
+}
+
+
+@media screen and (max-width: 767px) {
+
+  #heroSection .hero-content {
+    max-width:fit-content;
+    display: none;
+  }
+  .hero-content.two {
+    display: block !important;
+    max-width: auto;
+    position: absolute;
+    font-family: var(--headingFonts);
+  }
+  .animationTwo::after {
+    font-size: 35px;
+    }
+  .fs-35 {
+    font-size: 35px;
+  }
+  .fs-28px {
+    font-size: 28px;
+  }
+}
+
+/* Start Body key frames */
+@keyframes layer2 {
+  from {
+    height: 50vh;
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+
+
+.layer2 {
+  height: 50vh;
+  z-index: 5000;
+  animation-name:layer2 ;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes layer3 {
+  from {
+    height: 50vh;
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.layer3 {
+  height: 50vh;
+  z-index: 5000;
+  animation-name:layer2 ;
+  animation-duration: 1s;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
+}
+
+.loding {
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  border: 10px solid ;
+  border-color: white white white black;
+  top: 50%;
+  left:50%;
+  border-radius:50%;
+  /* animation-name:loading ; */
+  animation-iteration-count: 1;
+  animation: 1.5s loading, 1.5s 1.5s opa;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  to {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  
+}
+@keyframes opa {
+  from {
+
+    display: block;
+  }
+  to {
+
+    display: none;
+  }
+  
+}
+
+/* End Body key frames */
+
+/* About animation */
+
+:has(.active.about) .w-first-bar {
+  animation-play-state: running;
+}
+.w-first-bar {
+  width: 50%;
+  animation-name: changeOne;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
+:has(.active.about) .w-second-bar {
+  animation-play-state: running;
+}
+.w-second-bar {
+  width: 25%;
+  animation-delay: 0.5s;
+  animation-name: changeTwo;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+:has(.active.about) .w-third-bar {
+  animation-play-state: running;
+}
+.w-third-bar {
+  width: 30%;
+  animation-name: changeThree;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+
+@keyframes changeOne {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes changeTwo {
+  from {
+    width: 25%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes changeThree {
+  from {
+    width: 30%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.w-first-bar p,
+.w-second-bar p,
+.w-third-bar p{
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+:has(.active.about) .w-first-bar p::after {
+  animation-play-state: running;
+}
+
+.w-first-bar p::after{
+  content: "0%";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: counterOne;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+@keyframes counterOne {
+  1.04166666666667%{content:"0%";}
+  2.08333333333333%{content:"1%";}
+  3.125%{content:"2%";}
+  4.16666666666667%{content:"3%";}
+  5.20833333333333%{content:"4%";}
+  6.25%{content:"5%";}
+  7.29166666666667%{content:"6%";}
+  8.33333333333333%{content:"7%";}
+  9.375%{content:"8%";}
+  10.4166666666667%{content:"9%";}
+  11.4583333333333%{content:"10%";}
+  12.5%{content:"11%";}
+  13.5416666666667%{content:"12%";}
+  14.5833333333333%{content:"13%";}
+  15.625%{content:"14%";}
+  16.6666666666667%{content:"15%";}
+  17.7083333333333%{content:"16%";}
+  18.75%{content:"17%";}
+  19.7916666666667%{content:"18%";}
+  20.8333333333333%{content:"19%";}
+  21.875%{content:"20%";}
+  22.9166666666667%{content:"21%";}
+  23.9583333333333%{content:"22%";}
+  25%{content:"23%";}
+  26.0416666666667%{content:"24%";}
+  27.0833333333333%{content:"25%";}
+  28.125%{content:"26%";}
+  29.1666666666667%{content:"27%";}
+  30.2083333333333%{content:"28%";}
+  31.25%{content:"29%";}
+  32.2916666666667%{content:"30%";}
+  33.3333333333333%{content:"31%";}
+  34.375%{content:"32%";}
+  35.4166666666667%{content:"33%";}
+  36.4583333333333%{content:"34%";}
+  37.5%{content:"35%";}
+  38.5416666666667%{content:"36%";}
+  39.5833333333333%{content:"37%";}
+  40.625%{content:"38%";}
+  41.6666666666667%{content:"39%";}
+  42.7083333333333%{content:"40%";}
+  43.75%{content:"41%";}
+  44.7916666666667%{content:"42%";}
+  45.8333333333333%{content:"43%";}
+  46.875%{content:"44%";}
+  47.9166666666666%{content:"45%";}
+  48.9583333333333%{content:"46%";}
+  50%{content:"47%";}
+  51.0416666666666%{content:"48%";}
+  52.0833333333333%{content:"49%";}
+  53.125%{content:"50%";}
+  54.1666666666666%{content:"51%";}
+  55.2083333333333%{content:"52%";}
+  56.25%{content:"53%";}
+  57.2916666666666%{content:"54%";}
+  58.3333333333333%{content:"55%";}
+  59.375%{content:"56%";}
+  60.4166666666666%{content:"57%";}
+  61.4583333333333%{content:"58%";}
+  62.4999999999999%{content:"59%";}
+  63.5416666666666%{content:"60%";}
+  64.5833333333333%{content:"61%";}
+  65.6249999999999%{content:"62%";}
+  66.6666666666666%{content:"63%";}
+  67.7083333333333%{content:"64%";}
+  68.75%{content:"65%";}
+  69.7916666666666%{content:"66%";}
+  70.8333333333333%{content:"67%";}
+  71.875%{content:"68%";}
+  72.9166666666666%{content:"69%";}
+  73.9583333333333%{content:"70%";}
+  75%{content:"71%";}
+  76.0416666666667%{content:"72%";}
+  77.0833333333333%{content:"73%";}
+  78.125%{content:"74%";}
+  79.1666666666667%{content:"75%";}
+  80.2083333333333%{content:"76%";}
+  81.25%{content:"77%";}
+  82.2916666666667%{content:"78%";}
+  83.3333333333334%{content:"79%";}
+  84.375%{content:"80%";}
+  85.4166666666667%{content:"81%";}
+  86.4583333333334%{content:"82%";}
+  87.5%{content:"83%";}
+  88.5416666666667%{content:"84%";}
+  89.5833333333334%{content:"85%";}
+  90.6250000000001%{content:"86%";}
+  91.6666666666667%{content:"87%";}
+  92.7083333333334%{content:"88%";}
+  93.7500000000001%{content:"89%";}
+  94.7916666666667%{content:"90%";}
+  95.8333333333334%{content:"91%";}
+  96.8750000000001%{content:"92%";}
+  97.9166666666668%{content:"93%";}
+  98.9583333333334%{content:"94%";}
+  100%{content:"95%";}
+}
+:has(.active.about) .w-second-bar p::after {
+  animation-play-state: running;
+}
+
+.w-second-bar p::after{
+  content: "0%";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: counterTwo;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+@keyframes counterTwo {
+  1.16279069767442%{content:"0%";}
+2.32558139534884%{content:"1%";}
+3.48837209302326%{content:"2%";}
+4.65116279069767%{content:"3%";}
+5.81395348837209%{content:"4%";}
+6.97674418604651%{content:"5%";}
+8.13953488372093%{content:"6%";}
+9.30232558139535%{content:"7%";}
+10.4651162790698%{content:"8%";}
+11.6279069767442%{content:"9%";}
+12.7906976744186%{content:"10%";}
+13.953488372093%{content:"11%";}
+15.1162790697674%{content:"12%";}
+16.2790697674419%{content:"13%";}
+17.4418604651163%{content:"14%";}
+18.6046511627907%{content:"15%";}
+19.7674418604651%{content:"16%";}
+20.9302325581395%{content:"17%";}
+22.0930232558139%{content:"18%";}
+23.2558139534884%{content:"19%";}
+24.4186046511628%{content:"20%";}
+25.5813953488372%{content:"21%";}
+26.7441860465116%{content:"22%";}
+27.906976744186%{content:"23%";}
+29.0697674418604%{content:"24%";}
+30.2325581395349%{content:"25%";}
+31.3953488372093%{content:"26%";}
+32.5581395348837%{content:"27%";}
+33.7209302325581%{content:"28%";}
+34.8837209302325%{content:"29%";}
+36.046511627907%{content:"30%";}
+37.2093023255814%{content:"31%";}
+38.3720930232558%{content:"32%";}
+39.5348837209302%{content:"33%";}
+40.6976744186046%{content:"34%";}
+41.860465116279%{content:"35%";}
+43.0232558139535%{content:"36%";}
+44.1860465116279%{content:"37%";}
+45.3488372093023%{content:"38%";}
+46.5116279069767%{content:"39%";}
+47.6744186046511%{content:"40%";}
+48.8372093023255%{content:"41%";}
+50%{content:"42%";}
+51.1627906976744%{content:"43%";}
+52.3255813953488%{content:"44%";}
+53.4883720930232%{content:"45%";}
+54.6511627906976%{content:"46%";}
+55.813953488372%{content:"47%";}
+56.9767441860465%{content:"48%";}
+58.1395348837209%{content:"49%";}
+59.3023255813953%{content:"50%";}
+60.4651162790697%{content:"51%";}
+61.6279069767441%{content:"52%";}
+62.7906976744185%{content:"53%";}
+63.953488372093%{content:"54%";}
+65.1162790697674%{content:"55%";}
+66.2790697674418%{content:"56%";}
+67.4418604651162%{content:"57%";}
+68.6046511627907%{content:"58%";}
+69.7674418604651%{content:"59%";}
+70.9302325581395%{content:"60%";}
+72.0930232558139%{content:"61%";}
+73.2558139534884%{content:"62%";}
+74.4186046511628%{content:"63%";}
+75.5813953488372%{content:"64%";}
+76.7441860465116%{content:"65%";}
+77.9069767441861%{content:"66%";}
+79.0697674418605%{content:"67%";}
+80.2325581395349%{content:"68%";}
+81.3953488372093%{content:"69%";}
+82.5581395348838%{content:"70%";}
+83.7209302325582%{content:"71%";}
+84.8837209302326%{content:"72%";}
+86.046511627907%{content:"73%";}
+87.2093023255814%{content:"74%";}
+88.3720930232559%{content:"75%";}
+89.5348837209303%{content:"76%";}
+90.6976744186047%{content:"77%";}
+91.8604651162791%{content:"78%";}
+93.0232558139536%{content:"79%";}
+94.186046511628%{content:"80%";}
+95.3488372093024%{content:"81%";}
+96.5116279069768%{content:"82%";}
+97.6744186046513%{content:"83%";}
+98.8372093023257%{content:"84%";}
+100%{content:"85%";}
+}
+
+:has(.active.about) .w-third-bar p::after {
+  animation-play-state: running;
+}
+
+.w-third-bar p::after{
+  content: "0%";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: counterThree;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+@keyframes counterThree {
+  1.0989010989011%{content:"0%";}
+2.1978021978022%{content:"1%";}
+3.2967032967033%{content:"2%";}
+4.3956043956044%{content:"3%";}
+5.49450549450549%{content:"4%";}
+6.59340659340659%{content:"5%";}
+7.69230769230769%{content:"6%";}
+8.79120879120879%{content:"7%";}
+9.89010989010989%{content:"8%";}
+10.989010989011%{content:"9%";}
+12.0879120879121%{content:"10%";}
+13.1868131868132%{content:"11%";}
+14.2857142857143%{content:"12%";}
+15.3846153846154%{content:"13%";}
+16.4835164835165%{content:"14%";}
+17.5824175824176%{content:"15%";}
+18.6813186813187%{content:"16%";}
+19.7802197802198%{content:"17%";}
+20.8791208791209%{content:"18%";}
+21.978021978022%{content:"19%";}
+23.0769230769231%{content:"20%";}
+24.1758241758242%{content:"21%";}
+25.2747252747253%{content:"22%";}
+26.3736263736264%{content:"23%";}
+27.4725274725275%{content:"24%";}
+28.5714285714286%{content:"25%";}
+29.6703296703297%{content:"26%";}
+30.7692307692308%{content:"27%";}
+31.8681318681319%{content:"28%";}
+32.967032967033%{content:"29%";}
+34.0659340659341%{content:"30%";}
+35.1648351648352%{content:"31%";}
+36.2637362637363%{content:"32%";}
+37.3626373626374%{content:"33%";}
+38.4615384615385%{content:"34%";}
+39.5604395604396%{content:"35%";}
+40.6593406593407%{content:"36%";}
+41.7582417582418%{content:"37%";}
+42.8571428571429%{content:"38%";}
+43.956043956044%{content:"39%";}
+45.0549450549451%{content:"40%";}
+46.1538461538462%{content:"41%";}
+47.2527472527473%{content:"42%";}
+48.3516483516484%{content:"43%";}
+49.4505494505495%{content:"44%";}
+50.5494505494506%{content:"45%";}
+51.6483516483517%{content:"46%";}
+52.7472527472528%{content:"47%";}
+53.8461538461539%{content:"48%";}
+54.945054945055%{content:"49%";}
+56.0439560439561%{content:"50%";}
+57.1428571428572%{content:"51%";}
+58.2417582417583%{content:"52%";}
+59.3406593406594%{content:"53%";}
+60.4395604395605%{content:"54%";}
+61.5384615384616%{content:"55%";}
+62.6373626373627%{content:"56%";}
+63.7362637362638%{content:"57%";}
+64.8351648351649%{content:"58%";}
+65.934065934066%{content:"59%";}
+67.0329670329671%{content:"60%";}
+68.1318681318682%{content:"61%";}
+69.2307692307693%{content:"62%";}
+70.3296703296704%{content:"63%";}
+71.4285714285715%{content:"64%";}
+72.5274725274726%{content:"65%";}
+73.6263736263737%{content:"66%";}
+74.7252747252748%{content:"67%";}
+75.8241758241759%{content:"68%";}
+76.923076923077%{content:"69%";}
+78.0219780219781%{content:"70%";}
+79.1208791208792%{content:"71%";}
+80.2197802197802%{content:"72%";}
+81.3186813186813%{content:"73%";}
+82.4175824175824%{content:"74%";}
+83.5164835164835%{content:"75%";}
+84.6153846153846%{content:"76%";}
+85.7142857142857%{content:"77%";}
+86.8131868131868%{content:"78%";}
+87.9120879120879%{content:"79%";}
+89.010989010989%{content:"80%";}
+90.1098901098901%{content:"81%";}
+91.2087912087912%{content:"82%";}
+92.3076923076923%{content:"83%";}
+93.4065934065934%{content:"84%";}
+94.5054945054945%{content:"85%";}
+95.6043956043956%{content:"86%";}
+96.7032967032967%{content:"87%";}
+97.8021978021978%{content:"88%";}
+98.9010989010989%{content:"89%";}
+100%{content:"90%";}
+
+}
+/* About animation */
