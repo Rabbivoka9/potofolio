@@ -215,7 +215,6 @@ h1 {
     font-family: var(--headingFonts);
   }
   .animationTwo::after {
-    font-size: 35px;
     max-width: fit-content;
     }
   .fs-35 {
@@ -225,7 +224,6 @@ h1 {
     font-size: 28px;
     max-width: fit-content;
   }
-  
 }
 
 @media screen and (max-width: 310px) {
@@ -308,7 +306,7 @@ h1 {
 
 .animationTwo::after {
   content: " Larry Daniels ";
-  font-size: 48px;
+  font-size: 35px;
   color: white;
   font-weight: 400;
   animation-name:animationTwo ;
@@ -584,9 +582,7 @@ h1 {
 
 /* About animation */
 
-:has(.active.about) .w-first-bar {
-  animation-play-state: running;
-}
+
 .w-first-bar {
   width: 50%;
   animation-name: changeOne;
@@ -595,9 +591,7 @@ h1 {
   animation-play-state: paused;
   animation-fill-mode: forwards;
 }
-:has(.active.about) .w-second-bar {
-  animation-play-state: running;
-}
+
 .w-second-bar {
   width: 25%;
   animation-delay: 0.5s;
@@ -606,9 +600,7 @@ h1 {
   animation-fill-mode: forwards;
   animation-play-state: paused;
 }
-:has(.active.about) .w-third-bar {
-  animation-play-state: running;
-}
+
 .w-third-bar {
   width: 30%;
   animation-name: changeThree;
@@ -652,9 +644,7 @@ h1 {
   position: relative;
 }
 
-:has(.active.about) .w-first-bar p::after {
-  animation-play-state: running;
-}
+
 
 .w-first-bar p::after{
   content: "0%";
@@ -766,9 +756,6 @@ h1 {
   98.9583333333334%{content:"94%";}
   100%{content:"95%";}
 }
-:has(.active.about) .w-second-bar p::after {
-  animation-play-state: running;
-}
 
 .w-second-bar p::after{
   content: "0%";
@@ -871,9 +858,8 @@ h1 {
 100%{content:"85%";}
 }
 
-:has(.active.about) .w-third-bar p::after {
-  animation-play-state: running;
-}
+
+
 
 .w-third-bar p::after{
   content: "0%";
@@ -983,3 +969,101 @@ h1 {
 
 }
 /* About animation */
+
+.counterOne {
+  display: none;
+}
+
+#counterOne .btn:not(.btnONe) {
+  background-color: #111;
+}
+
+@media screen and (max-width: 767px) {
+  .section-padding {
+    padding-top: 50px ;
+    padding-bottom: 50px;
+  }
+  #counterOne p {
+    font-size: 10px ;
+  }
+  #counterOne h2 {
+    font-size: 20px;
+  }
+  #counterOne h3 {
+    font-size: 10px;
+  }
+  #counterOne .padding-pars {
+    padding: 0px 8px;
+  }
+  #counterOne .btn {
+    font-size: 10px;
+  }
+
+  #counterOne {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .section-padding {
+    padding-top: 90px ;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  :has(.active.counterOne) .w-first-bar p::after {
+    animation-play-state: running;
+  }
+  :has(.active.counterOne) .w-second-bar p::after {
+    animation-play-state: running;
+  }
+  :has(.active.counterOne) .w-third-bar p::after {
+    animation-play-state: running;
+  }
+  :has(.active.counterOne) .w-first-bar {
+    animation-play-state: running;
+  }
+  :has(.active.counterOne) .w-second-bar {
+    animation-play-state: running;
+  }
+  :has(.active.counterOne) .w-third-bar {
+    animation-play-state: running;
+  }
+  :has(.nav-link.counterTwo.active) .clints div p.one::after ,
+  :has(.nav-link.counterTwo.active) .clints div p.two::after,
+  :has(.nav-link.counterTwo.active) .clints div p.three::after,
+  :has(.nav-link.counterTwo.active) .clints div p.four::after {
+    animation-play-state: running;
+    animation-delay: 0.5s;
+  }
+}
+
+@media screen and (min-width:992px) {
+  :has(.active.about) .w-first-bar p::after {
+    animation-play-state: running;
+  }
+  :has(.active.about) .w-second-bar p::after {
+    animation-play-state: running;
+  }
+  :has(.active.about) .w-third-bar p::after {
+    animation-play-state: running;
+  }
+  :has(.active.about) .w-first-bar {
+    animation-play-state: running;
+  }
+  :has(.active.about) .w-second-bar {
+    animation-play-state: running;
+  }
+  :has(.active.about) .w-third-bar {
+    animation-play-state: running;
+  }
+  :has(.nav-link.Works.active) .clints div p.one::after ,
+:has(.nav-link.Works.active) .clints div p.two::after,
+:has(.nav-link.Works.active) .clints div p.three::after,
+:has(.nav-link.Works.active) .clints div p.four::after {
+  animation-play-state: running;
+  animation-delay: 0.5s;
+}
+}

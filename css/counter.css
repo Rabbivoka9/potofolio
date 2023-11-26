@@ -35,13 +35,7 @@
   animation-play-state: paused;
 }
 
-:has(.nav-link.Works.active) .clints div p.one::after ,
-:has(.nav-link.Works.active) .clints div p.two::after,
-:has(.nav-link.Works.active) .clints div p.three::after,
-:has(.nav-link.Works.active) .clints div p.four::after {
-  animation-play-state: running;
-  animation-delay: 0.5s;
-}
+
 
 @keyframes one {
   0.117508813160987%{content:"0";}
