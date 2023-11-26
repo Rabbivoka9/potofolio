@@ -58,6 +58,12 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 767px) {
+  .Titles {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 310px) {
   .Titles {
     font-size: 10px;

@@ -297,8 +297,8 @@ h1 {
 .animationTwo::before {
   content: "";
   width: 2px;
-  height: 70px;
-  right: -10px;
+  height: 40px;
+  right: -5px;
   bottom: 0;
   background-color: #aebcb9;
   position: absolute;
@@ -970,11 +970,12 @@ h1 {
 }
 /* About animation */
 
-.counterOne {
+/* .counterOne,
+.counterTwo {
   display: none;
-}
+} */
 
-#counterOne .btn:not(.btnONe) {
+#about .btn:not(.btnONe) {
   background-color: #111;
 }
 
@@ -983,19 +984,19 @@ h1 {
     padding-top: 50px ;
     padding-bottom: 50px;
   }
-  #counterOne p {
+  #about p {
     font-size: 10px ;
   }
-  #counterOne h2 {
+  #about h2 {
     font-size: 20px;
   }
-  #counterOne h3 {
+  #about h3 {
     font-size: 10px;
   }
-  #counterOne .padding-pars {
+  #about .padding-pars {
     padding: 0px 8px;
   }
-  #counterOne .btn {
+  #about .btn {
     font-size: 10px;
   }
 
@@ -1031,10 +1032,10 @@ h1 {
   :has(.active.counterOne) .w-third-bar {
     animation-play-state: running;
   }
-  :has(.nav-link.counterTwo.active) .clints div p.one::after ,
-  :has(.nav-link.counterTwo.active) .clints div p.two::after,
-  :has(.nav-link.counterTwo.active) .clints div p.three::after,
-  :has(.nav-link.counterTwo.active) .clints div p.four::after {
+  :has(.counterTwo.active) .clints div p.one::after ,
+  :has(.counterTwo.active) .clints div p.two::after,
+  :has(.counterTwo.active) .clints div p.three::after,
+  :has(.counterTwo.active) .clints div p.four::after {
     animation-play-state: running;
     animation-delay: 0.5s;
   }
@@ -1059,10 +1060,10 @@ h1 {
   :has(.active.about) .w-third-bar {
     animation-play-state: running;
   }
-  :has(.nav-link.Works.active) .clints div p.one::after ,
-:has(.nav-link.Works.active) .clints div p.two::after,
-:has(.nav-link.Works.active) .clints div p.three::after,
-:has(.nav-link.Works.active) .clints div p.four::after {
+  :has(.counterTwo.active) .clints div p.one::after ,
+:has(.counterTwo.active) .clints div p.two::after,
+:has(.counterTwo.active) .clints div p.three::after,
+:has(.counterTwo.active) .clints div p.four::after {
   animation-play-state: running;
   animation-delay: 0.5s;
 }

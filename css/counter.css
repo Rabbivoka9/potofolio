@@ -1,38 +1,42 @@
 .clints div p.one::after {
-  content: "850";
+  content: "0";
   color:#343434 ;
   font-size: 30px;
   font-weight: 900;
   font-family: var(--headingFonts);
   animation: 1.5s one;
   animation-play-state: paused;
+  animation-fill-mode: forwards;
 }
 .clints div p.two::after {
-  content: "230";
+  content: "0";
   color:#343434 ;
   font-size: 30px;
   font-weight: 900;
   font-family: var(--headingFonts);
   animation: 1.5s two;
   animation-play-state: paused;
+  animation-fill-mode: forwards;
 }
 .clints div p.three::after {
-  content: "9450";
+  content: "0";
   color:#343434 ;
   font-size: 30px;
   font-weight: 900;
   font-family: var(--headingFonts);
   animation: 1.5s three;
   animation-play-state: paused;
+  animation-fill-mode: forwards;
 }
 .clints div p.four::after {
-  content: "780";
+  content: "0";
   color:#343434 ;
   font-size: 30px;
   font-weight: 900;
   font-family: var(--headingFonts);
   animation: 1.5s four;
   animation-play-state: paused;
+  animation-fill-mode: forwards;
 }
 
 
@@ -888,7 +892,7 @@
 99.6474735605157%{content:"847";}
 99.7649823736767%{content:"848";}
 99.8824911868377%{content:"849";}
-99.9999999999986%{content:"850";}
+100%{content:"850";}
 
 }
 
@@ -2369,7 +2373,7 @@
 99.7584541062788%{content:"9447";}
 99.8389694041854%{content:"9448";}
 99.919484702092%{content:"9449";}
-99.9999999999986%{content:"9450";}
+100%{content:"9450";}
 
 }
 
