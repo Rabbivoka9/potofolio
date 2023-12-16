@@ -305,7 +305,7 @@ h1 {
 }
 
 .animationTwo::after {
-  content: " Larry Daniels ";
+  content: " Rabbi VOKA ";
   font-size: 35px;
   color: white;
   font-weight: 400;
@@ -316,34 +316,31 @@ h1 {
 
 @keyframes animationTwo {
 
-  0.571428571428571%{content:"Larry Daniels ";}
-  1.14285714285714%{content:"Larry Daniels ";}
-  1.71428571428571%{content:"Larry Daniels ";}
-  2.28571428571429%{content:"Larry Daniels ";}
-  2.85714285714286%{content:"Larry Daniels ";}
-  3.42857142857143%{content:"Larry Daniels ";}
-  4%{content:"Larry Daniels ";}
-  4.57142857142857%{content:"Larry Daniels ";}
-  5.14285714285714%{content:"Larry Daniels ";}
-  5.71428571428571%{content:"Larry Daniels ";}
-  6.28571428571428%{content:"Larry Daniels ";}
-  6.85714285714285%{content:"Larry Daniels ";}
-  7.42857142857143%{content:"Larry Daniels ";}
-  8%{content:"Larry Daniels ";}
-  8.57142857142857%{content:"Larry Daniels ";}
-  9.14285714285714%{content:"Larry Daniels ";}
-  9.71428571428571%{content:"Larry Daniel";}
-  10.2857142857143%{content:"Larry Danie";}
-  10.8571428571429%{content:"Larry Dani";}
-  11.4285714285714%{content:"Larry Dan";}
-  12%{content:"Larry Da";}
-  12.5714285714286%{content:"Larry D";}
-  13.1428571428571%{content:"Larry ";}
-  13.7142857142857%{content:"Larry";}
-  14.2857142857143%{content:"Larr";}
-  14.8571428571429%{content:"Lar";}
-  15.4285714285714%{content:"La";}
-  16%{content:"L";}
+  0.571428571428571%{content:"Rabbi VOKA ";}
+  1.14285714285714%{content:"Rabbi VOKA ";}
+  1.71428571428571%{content:"Rabbi VOKA ";}
+  2.28571428571429%{content:"Rabbi VOKA ";}
+  2.85714285714286%{content:"Rabbi VOKA ";}
+  3.42857142857143%{content:"Rabbi VOKA ";}
+  4%{content:"Rabbi VOKA ";}
+  4.57142857142857%{content:"Rabbi VOKA ";}
+  5.14285714285714%{content:"Rabbi VOKA ";}
+  5.71428571428571%{content:"Rabbi VOKA ";}
+  6.28571428571428%{content:"Rabbi VOKA ";}
+  6.85714285714285%{content:"Rabbi VOKA ";}
+  7.42857142857143%{content:"Rabbi VOKA ";}
+  8%{content:"Rabbi VOKA ";}
+  8.57142857142857%{content:"Rabbi VOKA";}
+  9.14285714285714%{content:"Rabbi VOKA ";}
+  9.71428571428571%{content:"Rabbi VOKA";}
+  10.2857142857143%{content:"Rabbi VOK";}
+  10.8571428571429%{content:"Rabbi VO";}
+  11.4285714285714%{content:"Rabbi V";}
+  12%{content:"Rabbi";}
+  12.5714285714286%{content:"Rabb";}
+  13.1428571428571%{content:"Rab ";}
+  13.7142857142857%{content:"Ra";}
+  16%{content:"R";}
   16.5714285714286%{content:"";}
   17.1428571428571%{content:"D";}
   17.7142857142857%{content:" De";}
@@ -455,42 +452,40 @@ h1 {
   78.2857142857142%{content:"Des";}
   78.8571428571427%{content:"De";}
   79.4285714285713%{content:"D";}
-  79.9999999999999%{content:"L";}
-  80.5714285714284%{content:"La";}
-  81.142857142857%{content:"Lar";}
-  81.7142857142856%{content:"Larr";}
-  82.2857142857141%{content:"Larry";}
-  82.8571428571427%{content:"Larry ";}
-  83.4285714285713%{content:"Larry D";}
-  83.9999999999999%{content:"Larry Da";}
-  84.5714285714284%{content:"Larry Dan";}
-  85.142857142857%{content:"Larry Dani";}
-  85.7142857142856%{content:"Larry Danie";}
-  86.2857142857141%{content:"Larry Daniel";}
-  86.8571428571427%{content:"Larry Daniels ";}
-  87.4285714285713%{content:"Larry Daniels ";}
-  87.9999999999998%{content:"Larry Daniels ";}
-  88.5714285714284%{content:"Larry Daniels ";}
-  89.142857142857%{content:"Larry Daniels ";}
-  89.7142857142856%{content:"Larry Daniels ";}
-  90.2857142857141%{content:"Larry Daniels ";}
-  90.8571428571427%{content:"Larry Daniels ";}
-  91.4285714285713%{content:"Larry Daniels ";}
-  91.9999999999998%{content:"Larry Daniels ";}
-  92.5714285714284%{content:"Larry Daniels ";}
-  93.142857142857%{content:"Larry Daniels ";}
-  93.7142857142855%{content:"Larry Daniels ";}
-  94.2857142857141%{content:"Larry Daniels ";}
-  94.8571428571427%{content:"Larry Daniels ";}
-  95.4285714285712%{content:"Larry Daniels ";}
-  95.9999999999998%{content:"Larry Daniels ";}
-  96.5714285714284%{content:"Larry Daniels ";}
-  97.142857142857%{content:"Larry Daniels ";}
-  97.7142857142855%{content:"Larry Daniels ";}
-  98.2857142857141%{content:"Larry Daniels ";}
-  98.8571428571427%{content:"Larry Daniels ";}
-  99.4285714285712%{content:"Larry Daniels ";}
-  99.9999999999998%{content:"Larry Daniels ";}
+  81.142857142857%{content:"R";}
+  81.7142857142856%{content:"Ra";}
+  82.2857142857141%{content:"Rab";}
+  82.8571428571427%{content:"Rabb ";}
+  83.4285714285713%{content:"Rabbi";}
+  83.9999999999999%{content:"Rabbi ";}
+  84.5714285714284%{content:"Rabbi V";}
+  85.142857142857%{content:"Rabbi VO";}
+  85.7142857142856%{content:"Rabbi VOK";}
+  86.2857142857141%{content:"Rabbi VOKA";}
+  86.8571428571427%{content:"Rabbi VOKA ";}
+  87.4285714285713%{content:"Rabbi VOKA ";}
+  87.9999999999998%{content:"Rabbi VOKA ";}
+  88.5714285714284%{content:"Rabbi VOKA ";}
+  89.142857142857%{content:"Rabbi VOKA ";}
+  89.7142857142856%{content:"Rabbi VOKA ";}
+  90.2857142857141%{content:"Rabbi VOKA ";}
+  90.8571428571427%{content:"Rabbi VOKA ";}
+  91.4285714285713%{content:"Rabbi VOKA ";}
+  91.9999999999998%{content:"Rabbi VOKA";}
+  92.5714285714284%{content:"Rabbi VOKA ";}
+  93.142857142857%{content:"Rabbi VOKA ";}
+  93.7142857142855%{content:"Rabbi VOKA";}
+  94.2857142857141%{content:"Rabbi VOKA ";}
+  94.8571428571427%{content:"Rabbi VOKA ";}
+  95.4285714285712%{content:"Rabbi VOKA";}
+  95.9999999999998%{content:"Rabbi VOKA ";}
+  96.5714285714284%{content:"Rabbi VOKA ";}
+  97.142857142857%{content:"Rabbi VOKA";}
+  97.7142857142855%{content:"Rabbi VOKA";}
+  98.2857142857141%{content:"Rabbi VOKA ";}
+  98.8571428571427%{content:"Rabbi VOKA";}
+  99.4285714285712%{content:"Rabbi VOKA";}
+  99.9999999999998%{content:"Rabbi VOKA ";}
 }
 
 
