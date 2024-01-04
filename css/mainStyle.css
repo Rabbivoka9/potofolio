@@ -47,7 +47,7 @@
 }
 .Titles {
   font-family: var(--headingFonts);
-  font-size: 40px;
+  font-size: 33px;
   color: #343434;
   font-weight: 900 !important;
   max-width: fit-content;
@@ -103,7 +103,11 @@
 }
 
 .logo{
-  width: 170px;
+  width: 140px;
+}
+
+.sout{
+  color: white;
 }
 
 #heroSection h2 {
