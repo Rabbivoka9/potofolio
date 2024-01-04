@@ -76,6 +76,7 @@
   }
 }
 
+
 .Titles::after {
   content: "";
   position: absolute;
