@@ -62,8 +62,8 @@
 .btnz{
   margin-top: 40px;
 }
-@media screen and (max-width: 767px){
-.about p {
+@media screen and (max-width: 310px){
+.font-parag {
     font-size: 15px;
 }
 }
