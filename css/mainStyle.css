@@ -9,7 +9,7 @@
 }
 .font-parag {
   font-family: var(--secondaryFont);
-  font-size: 13px;
+  font-size: 1px;
 }
 .fw-lg-bolder {
   font-weight: 800;
@@ -62,6 +62,12 @@
 .btnz{
   margin-top: 40px;
 }
+@media screen and (max-width: 767px){
+.about p {
+    font-size: 15px;
+}
+}
+
 
 @media screen and (max-width: 767px) {
   .Titles {
