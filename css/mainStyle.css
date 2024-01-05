@@ -23,6 +23,8 @@
 .text-blacked {
   color: #3a3434;
 }
+
+
 .bars-color {
   background-color: #1c1c1c;
   color: white;
@@ -225,6 +227,10 @@ h1::after {
 .contact-icons-p:hover .contact-icons {
   background: #1c1c1c;
   color: #eee;
+}
+
+.contact{
+  background: white;
 }
 
 .shadow-cz {
@@ -842,6 +848,7 @@ nav .nav-icon {
     width:fit-content;
     margin-left: auto;
   }
+  
 
   nav ul.nav-pills li {
     margin: 30px auto;
