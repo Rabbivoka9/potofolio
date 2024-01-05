@@ -113,14 +113,14 @@
 }
 @media (max-width: 768px) {
   .font-parag {
-      font-size: 14px; /* Taille de police pour les écrans de taille moyenne */
+      font-size: 15px; /* Taille de police pour les écrans de taille moyenne */
   }
 }
 
 /* Pour les écrans mobiles */
 @media (max-width: 576px) {
   .font-parag {
-      font-size: 12px; /* Taille de police pour les écrans mobiles */
+      font-size: 15px; /* Taille de police pour les écrans mobiles */
   }
 }
 
