@@ -24,6 +24,11 @@
   color: #3a3434;
 }
 
+.btn{
+  background-color: #f9ee1c;
+  color: #000;
+}
+
 
 .bars-color {
   background-color: #1c1c1c;
@@ -119,7 +124,7 @@
 
 /* Pour les écrans mobiles */
 @media (max-width: 576px) {
-  .VV{
+  .font-parag {
       font-size: 15px; /* Taille de police pour les écrans mobiles */
   }
 }
