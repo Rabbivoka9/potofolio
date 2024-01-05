@@ -67,13 +67,13 @@
 
 @media screen and (max-width: 767px) {
   .Titles {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 310px) {
   .Titles {
-    font-size: 10px;
+    font-size: 8px;
     display:none;
   }
 }
@@ -94,6 +94,13 @@
 /* End Global  */
 
 /* Start Hero Section */
+@media screen and (max-width: 768px) {
+  #heroSection {
+    background-size: contain;
+    background-attachment: scroll;
+  }
+}
+
 #heroSection {
   background-image: url("../image/bg.jpg");
   background-size: cover;
